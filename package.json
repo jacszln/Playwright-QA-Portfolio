@@ -1,7 +1,7 @@
 {
   "name": "playwright-qa-portfolio",
   "version": "1.0.0",
-  "description": "QA automation portfolio: API contract testing (JSONPlaceholder) and E2E testing (Hacker News) with Playwright + TypeScript.",
+  "description": "API contract testing (JSONPlaceholder) and E2E testing (Hacker News) with Playwright + TypeScript.",
   "private": true,
   "license": "MIT",
   "scripts": {

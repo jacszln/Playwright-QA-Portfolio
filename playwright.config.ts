@@ -16,9 +16,8 @@ export default defineConfig({
   },
   fullyParallel: true,
   forbidOnly: env.isCi,
-  // The E2E project hits a real, unmocked, rate-limited site (Hacker News throttles
-  // aggressively under concurrent load), so retries and capped workers are not just
-  // a CI nicety: they're required for the suite to be reliably green anywhere.
+  // Hacker News throttles concurrent traffic from the same client, so workers
+  // are capped and a retry is enabled to absorb occasional rate-limit responses.
   retries: env.isCi ? 2 : 1,
   workers: env.isCi ? 2 : 4,
   reporter: [

@@ -10,7 +10,7 @@ export const KNOWN_IDS = {
 /** Builder for POST /posts payloads. Override only what a test cares about. */
 export function buildNewPost(overrides: Partial<NewPost> = {}): NewPost {
   return {
-    title: 'Senior QA Engineer - Playwright Portfolio',
+    title: 'Test post created by contract test suite',
     body: 'This post was created by an automated contract test against JSONPlaceholder.',
     userId: 1,
     ...overrides,
