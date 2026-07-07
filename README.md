@@ -1,5 +1,7 @@
 # Playwright QA Portfolio
 
+[![Playwright Tests](https://github.com/jacszln/Playwright-QA-Portfolio/actions/workflows/playwright.yml/badge.svg)](https://github.com/jacszln/Playwright-QA-Portfolio/actions/workflows/playwright.yml)
+
 Test automation suite built with **Playwright + TypeScript**, covering both **API contract testing** and **UI end-to-end testing**.
 
 | Surface | Target                                                  | Covers                                                                                |
