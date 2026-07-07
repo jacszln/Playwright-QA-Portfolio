@@ -15,6 +15,7 @@
       "@config/*": ["src/config/*"]
     },
     "strict": true,
+    "types": ["node"],
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "forceConsistentCasingInFileNames": true,
